@@ -11,8 +11,9 @@ lsp.ensure_installed({
     'eslint',
     'lua_ls',
     'rust_analyzer',
-    'solc',
+    'solidity_ls_nomicfoundation',
 })
+
 lsp.setup()
 
 local cmp = require('cmp')
