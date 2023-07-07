@@ -1,5 +1,5 @@
 local lsp = require('lsp-zero').preset({})
-
+require("autoclose").setup()
 lsp.on_attach(function(client, bufnr)
   lsp.default_keymaps({buffer = bufnr})
 end)
@@ -11,6 +11,7 @@ lsp.ensure_installed({
     'eslint',
     'lua_ls',
     'rust_analyzer',
+    'solc',
 })
 lsp.setup()
 

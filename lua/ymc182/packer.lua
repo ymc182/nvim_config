@@ -42,4 +42,5 @@ use {
     {'L3MON4D3/LuaSnip'},     -- Required
   }
 }
+use 'm4xshen/autoclose.nvim'
 end)
